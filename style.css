@@ -49,3 +49,8 @@ section p {
 
   color: var(--paragraph-color);
 }
+
+ul {
+  display: flex;
+  gap: 1.6rem;
+}
