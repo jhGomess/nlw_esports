@@ -7,8 +7,16 @@
 
 :root {
   font-size: 62.5%;
+
+  --bg-body: #121214;
 }
 
 body {
   font-size: 1.6rem;
+
+  background-image: url(./images/Fundo.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: var(--bg-body);
 }
