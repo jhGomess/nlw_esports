@@ -9,6 +9,7 @@
   font-size: 62.5%;
 
   --bg-body: #121214;
+  --paragraph-color: #a1a1aa;
 }
 
 ul {
@@ -25,8 +26,26 @@ body {
   background-color: var(--bg-body);
 }
 
+body * {
+  font-family: "Inter", sans-serif;
+  line-height: 160%;
+}
+
 main {
   max-width: 58rem;
   width: 90%;
   margin: 0 auto;
+}
+
+section h2 {
+  font-weight: 900;
+  letter-spacing: -0.47px;
+
+  color: white;
+}
+
+section p {
+  letter-spacing: -0.18px;
+
+  color: var(--paragraph-color);
 }
