@@ -53,4 +53,16 @@ section p {
 ul {
   display: flex;
   gap: 1.6rem;
+
+  margin-top: 2.4rem;
+}
+
+.games-list img {
+  width: 9rem;
+  border-radius: 0.8rem;
+}
+
+.channel-list img {
+  width: 7rem;
+  border-radius: 50%;
 }
