@@ -35,6 +35,9 @@ main {
   max-width: 58rem;
   width: 90%;
   margin: 0 auto;
+
+  display: grid;
+  gap: 2.4rem;
 }
 
 section h2 {
@@ -50,7 +53,7 @@ section p {
   color: var(--paragraph-color);
 }
 
-ul {
+section ul {
   display: flex;
   gap: 1.6rem;
 
