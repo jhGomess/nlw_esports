@@ -10,6 +10,7 @@
 
   --bg-body: #121214;
   --paragraph-color: #a1a1aa;
+  --bg-section-div: #2a2634;
 }
 
 ul {
@@ -38,6 +39,24 @@ main {
 
   display: grid;
   gap: 2.4rem;
+}
+
+section {
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+
+  padding-top: 0.4rem;
+  border-radius: 1.2rem;
+}
+
+section div {
+  background-color: var(--bg-section-div);
+  border-radius: 0.8rem;
+  padding: 2.4rem 3.2rem 3.2rem;
 }
 
 section h2 {
