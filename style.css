@@ -32,15 +32,42 @@ body * {
   line-height: 160%;
 }
 
+/*========= HEADER ======================================*/
+
+header {
+  padding-top: 3.2rem;
+}
+
+header div {
+  width: 12rem;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  border-radius: 50%;
+  padding: 0.4rem;
+
+  display: flex;
+}
+
+header div img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/*========= MAIN =========================================*/
+
 main {
   max-width: 58rem;
   width: 90%;
-  margin: 0 auto;
+  margin: 3.2rem auto;
 
   display: grid;
   gap: 2.4rem;
-
-  margin-top: 3.2rem;
 }
 
 section {
