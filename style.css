@@ -39,6 +39,8 @@ main {
 
   display: grid;
   gap: 2.4rem;
+
+  margin-top: 3.2rem;
 }
 
 section {
@@ -74,6 +76,7 @@ section p {
 
 section ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.6rem;
 
   margin-top: 2.4rem;
